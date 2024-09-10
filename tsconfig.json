@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "target": "ES2022",
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "preserveConstEnums": true,
+        "types": ["node"],
+        "declaration": true
+    },
+    "include": ["src/**/*.ts", "test/**/*.ts"],
+    "exclude": ["node_modules", "build", "dist", "coverage"],
+}
